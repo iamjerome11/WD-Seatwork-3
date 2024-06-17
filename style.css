@@ -25,6 +25,10 @@ header {
     margin-right: 10px;
 }
 
+.spaced-text {
+    letter-spacing: 5px; 
+}
+
 .nav {
     margin-right: 20px;
 }
@@ -43,4 +47,61 @@ header {
 
 .nav a i {
     margin-right: 3px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px; 
+}
+
+.footer-logo {
+    font-size: 1.5em;
+    padding-right: 20px; 
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 0 10px; 
+}
+
+.footer-nav a:hover {
+    color: #ccc;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    padding: 0 10px; 
+}
+
+.social-icons a:hover {
+    color: #ccc;
+}
+
+.footer-bottom {
+    font-size: 0.9em;
+    margin-top: 20px; 
 }
