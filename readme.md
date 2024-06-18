@@ -1,48 +1,40 @@
-
 Sports Website
-This project includes HTML and CSS code for a sports-themed website featuring multiple headers and a footer.
+This is a simple website that showcases different sports like basketball, volleyball, tennis, football, and soccer. The website has a header with a logo and navigation menu, and a footer with links and social media icons.
 
-Table of Contents
-Installation
-Usage
-File Structure
-Dependencies
-Installation
-Clone the repository:
-sh
-Copy code
-git clone https://github.com/yourusername/sports-website.git
-Navigate to the project directory:
-sh
-Copy code
-cd sports-website
+Technologies Used
+HTML
+CSS
+Font Awesome (for icons)
+Features
+
+
+Header:
+The header contains a logo and a navigation menu.
+The logo has an image and a heading.
+The navigation menu has links for Home, Contact, Services, and About.
+Footer:
+The footer contains the website's logo, navigation menu, and social media icons.
+The navigation menu in the footer has the same links as the header.
+The social media icons link to the respective social media platforms.
+The footer also includes a copyright notice.
+
+
+Responsive Design:
+The website is designed to be responsive and will adapt to different screen sizes.
+How to Use
+Clone the repository or download the ZIP file.
 Open the index.html file in your web browser.
-Usage
-This code creates a webpage with sections for different sports (Basketball, Volleyball, Tennis, Football, Soccer) and a footer with navigation and social media links.
+Explore the different sections of the website by clicking on the navigation links.
+Customization
+To customize the website, you can modify the following:
 
-File Structure
-css
-Copy code
-sports-website/
-├── assets/
-│   └── img/
-│       ├── basketball.jpg
-│       ├── volleyball.jpg
-│       ├── tennis.jpg
-│       ├── football.jpg
-│       └── soccer.jpg
-├── index.html
-└── style.css
-Dependencies
-Font Awesome for icons.
-Include this in the head section of your HTML:
-
-html
-Copy code
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-Feel free to customize the content and styles as needed.
-
-
-
-
-
+Header and Footer Content:
+Update the logo image, heading, and navigation links as needed.
+Modify the social media icons and links.
+CSS Styles:
+Adjust the colors, fonts, and layout by modifying the CSS in the style.css file.
+Add additional CSS rules to customize the website's appearance.
+Assets:
+Replace the images in the assets/img folder with your own images.
+Contributions
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please feel free to create a new issue or submit a pull request.
