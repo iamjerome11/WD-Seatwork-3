@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#basic-footer {
+    background-color: black;
+}
+
+#social-footer {
+    background-color: black;
+    color: white;
+}
+
+#social-footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#social-footer .social-media a i {
+    margin-right: 5px;
+}
+
+#nav-footer {
+    background-color: black;
+}
+
+#nav-footer nav a {
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+}
+
+#contact-footer {
+    background-color: black;
+}
+
+#contact-footer .contact-info {
+    margin-top: 10px;
+}
+
+#newsletter-footer {
+    background-color: black;
+}
+
+#newsletter-footer .newsletter {
+    margin-top: 10px;
+}
+
+#newsletter-footer input[type="email"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#newsletter-footer input[type="submit"] {
+    padding: 5px 10px;
+}
