@@ -1,63 +1,56 @@
 Overview
 
-Sport Header and Footer
-This is a simple HTML and CSS code that creates a responsive header and footer for a sports-related website. The header features a logo, navigation menu, and icons, while the footer includes social media icons.
+Description of the project in details.
 
-Features:
-- Responsive design that works on different screen sizes
-- Consistent header and footer across multiple pages
-- Customizable colors and styles
-- Use of Font Awesome icons for navigation and social media links
+The WD-ProjectName is a comprehensive project that aims to provide a seamless and engaging user experience. This project encompasses a multi-page website with a focus on parallax transitions and transactional functionality.
 
-Usage:
-To use this code, simply include the HTML and CSS files in your project. The HTML file should be placed in the root directory of your project, and the CSS file should be placed in the assets/css/ directory.
+Guiding Question:
+What is the project?
+1. Purpose: The primary purpose of this project is to create an interactive and visually captivating website that caters to the user's needs and preferences.
+2. Key Components: The key components of this project include a multi-page website, parallax transitions, and transactional functionality.
+3. Technology Used: This project utilizes a combination of HTML, CSS, and JavaScript to achieve its desired functionality and aesthetic.
 
-The HTML file includes five different header sections, each with a different sport logo and navigation menu. You can duplicate or modify these sections as needed to create additional pages for your website.
 
-The CSS file includes styles for the header, footer, and other elements. You can customize the styles to match the branding and design of your website.
+Key Components:
+1. Multi-Page Website/Single Page Website: The project features a multi-page website structure, allowing users to navigate through different sections and explore the content in a structured manner.
+2. Parallax Transition: The website incorporates parallax transitions, creating a visually striking and immersive user experience as the user scrolls through the content.
+3. Transactional: The project includes transactional functionality, enabling users to perform various actions such as purchasing products, making reservations, or completing other interactive tasks.
 
-Dependencies
-This code uses the following dependencies:
+Technology
+-  HTML: The project's structure and content are built using HTML, the standard markup language for web pages.
+-  CSS: The styling and visual aspects of the website are implemented using CSS, enabling the creation of a cohesive and visually appealing design.
+-  JavaScript: JavaScript is used to add interactivity, dynamic content, and functionality to the website, including the implementation of the parallax transitions and transactional features.
 
-Font Awesome - for the icons used in the navigation and social media links
-You can include the Font Awesome CSS file in your HTML file by adding the following line in the <head> section:
 
-html
+Rules, Practices, and Principles
+1. Always use WD- in the front of the Title of the Project for the Subject followed by your custom naming.
+2. Do not rename any .html files; always use index.html as the filename.
+3. Place Files in their respective folders.
+4. All file naming are in camel case.
+5. Camel case is a naming format where there is no white space in the separation of each word, the first word is in all lowercase, while the succeeding words' first letters are in uppercase followed by lowercase letters.
+-  Example: buttonAnimatedStyle.css
+6. Use only External CSS.
+7. Renaming of Pages folder names is a must, and the names should relate to what the page is doing or the data it is holding.
+8. File Structure to follow:
+gherkin
 Copy
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-Contributing
-If you find any issues or have suggestions for improvements, please feel free to create a new issue or submit a pull request.
-
-
-Footers Project
-This project provides a collection of footer designs that can be used in websites. The footer designs include:
-
-1. Basic Footer: A simple footer with a copyright notice.
-2. Social Media Footer: A footer with social media links.
-3. Navigation Footer: A footer with navigation links.
-4. Contact Information Footer: A footer with contact information.
-5. Newsletter Subscription Footer: A footer with a newsletter subscription form.
-
-Overview
-The project consists of an HTML file and a CSS file. The HTML file contains the markup for the different footer designs, and the CSS file contains the styles for the footers.
-
-The HTML file includes the following sections:
-
-Basic Footer: A simple footer with a copyright notice.
-Social Media Footer: A footer with social media links.
-Navigation Footer: A footer with navigation links.
-Contact Information Footer: A footer with contact information.
-Newsletter Subscription Footer: A footer with a newsletter subscription form.
-The CSS file includes the styles for the different footer designs, such as background colors, text alignment, and link styles.
-
-Usage
-To use the footer designs in your own project, follow these steps:
-
-Copy the HTML code for the footer design you want to use and paste it into your own HTML file.
-Add the CSS file to your project and link to it in your HTML file.
-Customize the footer design by modifying the HTML and CSS code as needed.
-Contributing
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions are welcome!
-
-License
-This project is licensed under the MIT License.
+WD-ProjectName
+└─ assets
+|   └─ css
+|   |   └─ style.css
+|   └─ img
+|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   └─ js
+|       └─ script.js
+└─ pages
+|  └─ pageName
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+└─ index.html
+└─ readme.md
