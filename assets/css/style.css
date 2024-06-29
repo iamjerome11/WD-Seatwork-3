@@ -9,46 +9,35 @@ section{
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: violet;
 }
 .container{
     width: 85%;
     margin: auto;
 }
+
 nav{
     height: 80px;
 }
 nav h1{
-    float: left;
-    line-height: 80px;
-    font-size: 35px;
-    font-size: inline;
     color: white;
 }
 nav a{
     color: white;
     font-size: 20px;
 }
-nav ul{
-    float: right;
-    line-height: 80px;
-}
+
 nav ul li{
     display: inline-block;
     list-style: none;
     padding: 0px 5px;
 }
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 5px;
-}
+
 nav ul li a:hover{
     background-color: #eb7620;
     transition: 0.5s ease;
 }
 
-    
 .article{
     width: 50%;
     margin: auto;
@@ -56,7 +45,7 @@ nav ul li a:hover{
     transform: translateY(25vh);
 }
 .article h1{
-    font-size: 36px;
-    color: #fff;
-    letter-spacing: 1.5px;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
 }
