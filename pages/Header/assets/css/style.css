@@ -1,76 +1,216 @@
-body {
-    font-family: Verdana, sans-serif;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: black;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 20px;
-    margin-bottom: 25px;
+    background-color: whitesmoke;
 }
-
-.logo {
-    margin-left: 20px;
+h2{
+    margin-top: 40px;
+}
+.home{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: #555;
+}
+.static{
+    background-color: #3333337a;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.static h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.static .bb-logo-1{
+    height: 60px;
+    margin-right: 20px;
+}
+.static .navigation{
     display: flex;
-    align-items: center;
 }
-
-.logo img {
-    max-width: 50px;
+.static .navigation a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
     margin-right: 10px;
 }
 
-.spaced-text {
-    letter-spacing: 5px; 
-}
+/* header 2 */
 
-.nav {
-    margin-right: 20px;
+.header-2{
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
 }
-
-.nav a {
+.header-2 .logo{
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+}
+.header-2 nav{
+    margin-top: 10px;
+}
+.header-2 nav a{
+    margin: 0 20px;
     color: #fff;
     text-decoration: none;
-    margin-right: 20px;
-    display: inline-flex;
+    font-size: 16px;
+}
+
+/* Header 3 */
+
+.design-3{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    background-color: violet;
+}
+.design-3 .volleyball{
+    height: 50px;
+    border-radius: 50%;
+}
+.design-3 .navigation{
+    display: flex;
+    gap: 10px;
+}
+.design-3 .navigation .navigation-content{
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.design-3 .search-container{
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    pointer-events: none; 
+}
+.design-3 .search-container input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    pointer-events: none; 
+}
+.design-3 .search-container .search-button{
+    padding: 10px 20px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
 }
 
-.nav a:hover {
-    color: #ccc;
+/* Header 4 */
+
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+}
+header img{
+    width: 50px;
+    height: 50px;
+}
+button, .btn, .btn-cta{
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-bar input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
 }
 
-.nav a i {
-    margin-right: 3px;
-}
+/* Header 5 */
 
-footer {
-    background-color: #333;
-    color: #fff;
+.Header5{
+    background-color: grey;
     padding: 20px 0;
-    text-align: center;
-    margin-top: 50px; 
 }
-
-.social-icons {
+.Header5 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.Header5 .logo i{
+    font-size: 50px;
+    margin-left: 20px;
+    max-height: 40px;
+}
+.Header5 nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Header5 nav li{
+    margin-right: 20px;
+}
+.Header5 nav a{
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.Header5 nav a:hover{
+    color: #666;
+}
+.Header5 .buttons{
     display: flex;
 }
-
-.social-icons a {
-    color: #fff;
+.Header5 .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
     text-decoration: none;
-    margin: 0 10px;
-    font-size: 1.2em;
-    padding: 0 10px; 
+    margin-left: 10px;
 }
-
-.social-icons a:hover {
-    color: #ccc;
+.Header5 .btn-primary{
+    color: #fff;
+}
+.Header5 .btn-secondary{
+    background-color: #6c757d;
+    color: #fff;
 }
 
 
