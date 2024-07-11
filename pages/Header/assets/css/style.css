@@ -11,7 +11,7 @@ body{
     background-position: center;
     background-size: cover;
     padding: 20px;
-    background-color: whitesmoke;
+    background-position: 0%;
 }
 h2{
     margin-top: 40px;
@@ -215,67 +215,67 @@ button, .btn, .btn-cta{
 
 /* Animated Design*/
 
-.dynamic1 {
+.dynamic1{
     margin-left: 4vw;
     width: auto;
     display: flex;
 
-    & > p {
+    & > p{
         margin-bottom: 1.5vh;
 
-        & > span {
+        & > span{
             font-weight: bold;
             margin-right: 15px;
         }
     }
 }
 
-header.dynamic-1 {
+header.dynamic-1{
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(180deg,rgb(245, 196, 106),rgb(190, 167, 123));
-    border-top: 3px rgb(175, 129, 43) solid;
-    border-bottom: 3px rgb(175, 129, 43) solid;
+    background: black;
+    border-top: 5px blue solid;
+    border-bottom: 5px blue solid;
 
-    & > .image-anim {
+    & > .image-six{
         display: flex;
 
-        & > img.carrot-logo {
+        & > img.basketball-logo{
             margin-left: 8vw;
             height: 50px;
             transition: transform 0.2s ease-in-out;
 
-            &:hover {
+            &:hover{
                 transform: rotate(25deg);
             }
 
-            &:active {
+            &:active{
                 transform: translate(-50px);
             }
         }
 
-        & > p.dodge {
+        & > p.dodge{
             display: none;
             color: aliceblue;
             margin-top: 10px;
         }
 
-        #carrotLogo:active ~ .dodge {
+        #basketballLogo:active ~ .dodge{
             display: block;
         }
     }
 
-    & > nav.dynamicnav1 {
+    & > nav.dynamicnav1{
         margin-right: 8vw;
         display: flex;
         align-items: center;
         gap: 1rem;
         transition: all 0.2s ease;
 
-        & > button {
-            font-family: 'Comic Neue', sans-serif;
-            background-color: rgb(214, 171, 91);
+        & > button{
+            font-family: sans-serif;
+            background-color: violet;
             font-weight: 600;
             font-size: 19.6px;
             color: black;
@@ -288,7 +288,7 @@ header.dynamic-1 {
             text-decoration: none;
             transition: transform 0.2s ease;
 
-            &:hover {
+            &:hover{
                 color: aliceblue;
                 border-top: 1px black solid;
                 border-left: 1px black solid;
@@ -297,12 +297,228 @@ header.dynamic-1 {
                 cursor: pointer;
             }
 
-            &:active {
+            &:active{
                 transform: scale(1);
             }
         }
     }
 }
 
+/* 2nd Animated Header */
+
+.A-header05{
+    overflow: hidden;
+    background-color: #191919;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.A-h5_block1_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+  
+.A-h5_block1_logo img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 50px;
+}
+.A-h5_block2_navigation1 a{
+    padding: 12px 31px;
+    color: #c4b395;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    border-left: 2px solid #c4b395;
+    transition: all 0.3s ease-in;
+}
+
+.A-h5_block2_navigation1 a:hover{
+    background-color: purple;
+    color:#191919;
+    border-radius: 25px;
+    transform: scale(1.5);
+}
+
+/* 3rd Animated Header */
+
+.design-three-animated-header {
+    display: flex;
+    width: 100vw;
+    height: 14.2vh;
+    justify-content: space-between;
+    padding: .7rem 4vw .7rem 4vw;
+    align-items: center;
+    background-color: black;
+
+    .pop-up-logo-div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        height: 100px;
+    }
+    .pop-up-logo {
+        display: none;
+    }
+    & > .navigation {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > .navigation-content {
+            color: white;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #85f700;
+        }
+        & > .navigation-icon {
+            font-weight: 800;
+            font-size: 1.8rem;
+            color: rgba(182, 180, 180, 0.623);
+        }
+    }
+    .pop-up-logo-div:hover .pop-up-logo{
+        display: flex;
+        height: 10vh;
+    }
+    .navigation-content:not(:hover){
+        color: white;
+    }
+    .navigation-content:hover {
+        color: violet;
+        text-shadow: 0px 10px 30px white;
+        border-bottom: 2px white solid;
+        margin-bottom: -2px;
+    }
+
+}
+.header-text4{
+    font-family: sans-serif
+    color: #000000;
+    text-shadow: 2px 2px #f3f4ff;
+    margin-bottom: 5px;
+}
+.section-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10vw;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+.section-4 .header-content .img {
+    width: 70px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+  .section-4 .header-content .img:hover{
+    transform: scale(1.1); 
+}
+.section-4 .naviD{
+    display: flex;
+    gap: 15px;
+}
+.section-4 .naviD a{
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-family: 'Super Font';
+    font-size: 14px;
+    background-color: #ffffff;
+    color: purple;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: transform 0.3s ease; 
+}
+
+.section-4 .naviD a:hover{
+    transform: translateY(-3px);
+}
+.section-4 .naviD a:last-child{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+  .section-4 .header-text4{
+    animation: slideInText 1s ease forwards;
+}
+  @keyframes slideInText{
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+.basketball5 {
+    overflow: hidden;
+    background-color: purple;
+    padding: 20px 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.basketball5 a {
+    font-family: sans-serif;
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 200px;
+}
+
+.bas {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    line-height: 100px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    transition: border 0.5s;
+    text-decoration: none;
+}
+
+.bas:hover {
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.basketball5 .logo {
+    padding-top: 20px;
+    padding-left: 350px;
+}
+
+.nav5 {
+    border: 5px solid transparent;
+    transition: border 0.5s;
+    text-decoration: none;
+}
+
+.nav5:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+.header-right a{
+    color: blueviolet;
+}
 
 
